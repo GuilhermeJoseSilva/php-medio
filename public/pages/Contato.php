@@ -1,6 +1,8 @@
+
 <h2>Contato</h2>
 
-<form action="pages/forms/ContatoForm.php" method="post">
+<?= get('message'); ?>
+<form action="pages/forms/ContatoForm.php" method="POST">
     <div class="form-group">
         <label for="">Nome</label>
         <input type="text" name="name" placeholder="Digite seu nome" class="form-control">
@@ -8,7 +10,7 @@
 
     <div class="form-group">
         <label for="">E-mail</label>
-        <input type="text" name="email" class="form-control" laceholder="Digite seu E-mail">
+        <input type="text" name="email" class="form-control" placeholder="Digite seu E-mail">
     </div>
 
     <div class="form-group">

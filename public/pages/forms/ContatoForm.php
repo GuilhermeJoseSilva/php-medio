@@ -1,6 +1,12 @@
 <?php
 require "./bootstap.php";
 
+if(isEmpty()){
+  flash('message', 'Preencha todos os campos');
+//  return redirect('?page=Contato);
+    return redirect("Contato");
+
+}
 
 $validate = validate([
     'name' => 's',
@@ -9,4 +15,4 @@ $validate = validate([
     'message' => 's'
 ]);
 
-dd($validate->subject);
+dd($validate->name);
