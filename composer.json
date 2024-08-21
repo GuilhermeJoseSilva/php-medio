@@ -4,7 +4,12 @@
             "app/functions/Custom.php",
             "app/functions/Pages.php",
             "app/functions/Validate.php",
-            "app/functions/Flash.php"
+            "app/functions/Flash.php",
+            "app/functions/Email.php",
+            "app/functions/Database.php"
         ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
     }
 }

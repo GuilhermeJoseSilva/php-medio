@@ -10,4 +10,6 @@ return array(
     'da2dfe1e98a47ae464a66504d61f8ddb' => $baseDir . '/app/functions/Pages.php',
     'bfb7b52a6f0d07f2df60fee5a5d421c6' => $baseDir . '/app/functions/Validate.php',
     '6eb9c97a95ff5be795307d38a0d02b6b' => $baseDir . '/app/functions/Flash.php',
+    '4d0afdfebe7de7807692b601a29e4677' => $baseDir . '/app/functions/Email.php',
+    'cec57d1e37e8cf9739b08f3248108716' => $baseDir . '/app/functions/Database.php',
 );
